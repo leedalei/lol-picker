@@ -1,0 +1,22 @@
+{
+  "name": "lol-picker-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nodemon ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2",
+    "koa": "^2.15.0",
+    "koa-body": "^6.0.1",
+    "koa-jwt": "^4.0.4",
+    "koa-route": "^3.2.0",
+    "koa-websocket": "^7.0.0",
+    "mongodb": "^6.3.0",
+    "uuid": "^9.0.1"
+  }
+}
